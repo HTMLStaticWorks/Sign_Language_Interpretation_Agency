@@ -1,0 +1,13 @@
+/* Dark Mode Specific Overrides if needed. Base is already dark, so we can leave this mostly empty or put dark-specific overrides here. */
+[data-theme="dark"] {
+    /* Most dark styles are defined as default in style.css */
+}
+
+/* Fix for subtext blurring in dark mode */
+[data-theme="dark"] .text-secondary {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    opacity: 1 !important;
+    filter: none !important;
+    text-shadow: none !important;
+}

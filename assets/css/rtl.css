@@ -1,0 +1,55 @@
+/* RTL Support */
+body[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+[dir="rtl"] .sidebar-link i {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+[dir="rtl"] .sidebar-link {
+    border-left: none;
+    border-right: 3px solid transparent;
+}
+
+[dir="rtl"] .sidebar-link:hover, [dir="rtl"] .sidebar-link.active {
+    border-right-color: var(--primary-accent);
+}
+
+[dir="rtl"] .ms-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+[dir="rtl"] .me-auto {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+
+[dir="rtl"] .pe-3 {
+    padding-right: 0 !important;
+    padding-left: 1rem !important;
+}
+
+[dir="rtl"] .ps-3 {
+    padding-left: 0 !important;
+    padding-right: 1rem !important;
+}
+
+[dir="rtl"] .me-2, [dir="rtl"] .me-3, [dir="rtl"] .me-4 {
+    margin-right: 0 !important;
+}
+
+[dir="rtl"] .ms-2, [dir="rtl"] .ms-3, [dir="rtl"] .ms-4 {
+    margin-left: 0 !important;
+}
+
+[dir="rtl"] .float-end {
+    float: left !important;
+}
+
+[dir="rtl"] .float-start {
+    float: right !important;
+}

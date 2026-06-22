@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | ClearHands Interpreting</title>
+    
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..600&family=Poppins:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+</head>
+<body data-theme="dark">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-glass">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.svg" alt="ClearHands Interpreting Logo" style="max-height: 40px; width: auto;">
+            </a>
+            <button class="navbar-toggler border-0 shadow-none text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="bi bi-list fs-2"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home2.html">Home 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-2 mt-3 mt-xl-0">
+                    <a href="#" id="rtlToggle" class="btn btn-outline-secondary d-flex align-items-center justify-content-center fw-bold" style="width: 40px; height: 40px; font-size: 0.8rem;" title="Toggle RTL">RTL</a>
+                    <a href="#" id="themeToggle" class="btn btn-outline-secondary d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;" title="Toggle Theme"><i class="bi bi-sun fs-5"></i></a>
+                    <a href="login.html" class="btn btn-gradient fw-semibold ms-2">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5 bg-secondary-dark border-bottom border-secondary position-relative overflow-hidden">
+        <div id="particles-js" class="position-absolute w-100 h-100 top-0 start-0 opacity-50"></div>
+        <div class="container py-5 text-center position-relative z-index-2 fade-up">
+            <h1 class="display-4 fw-bold">Request an Interpreter</h1>
+            <p class="lead text-secondary mx-auto mt-3" style="max-width: 600px;">Book certified sign language interpreters for your upcoming appointments, events, or virtual sessions.</p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row g-5 justify-content-center">
+                
+                <div class="col-lg-7 fade-up">
+                    <div class="glass-card p-5">
+                        <h4 class="mb-4">Booking Request Form</h4>
+                        <form action="index.html">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label text-secondary small">Full Name</label>
+                                    <input type="text" class="form-control form-control-glass" placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-secondary small">Organization</label>
+                                    <input type="text" class="form-control form-control-glass" placeholder="e.g. Metro Hospital" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-secondary small">Email Address</label>
+                                    <input type="email" class="form-control form-control-glass" placeholder="john@organization.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-secondary small">Phone Number</label>
+                                    <input type="tel" class="form-control form-control-glass" placeholder="(555) 000-0000" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-secondary small">Service Type</label>
+                                    <select class="form-select form-control-glass">
+                                        <option>Medical Interpretation</option>
+                                        <option>Legal Interpretation</option>
+                                        <option>Educational Interpretation</option>
+                                        <option>Corporate / Business Interpretation</option>
+                                        <option>Public Event / Concert Interpretation</option>
+                                        <option>Virtual / Online Session</option>
+                                        <option>Other Services</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-secondary small">Event Date</label>
+                                    <input type="date" class="form-control form-control-glass" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-secondary small">Location / Platform</label>
+                                    <input type="text" class="form-control form-control-glass" placeholder="e.g. New York Office / Zoom Link" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-secondary small">Interpretation Type</label>
+                                    <select class="form-select form-control-glass">
+                                        <option>American Sign Language (ASL)</option>
+                                        <option>Tactile Signing (Deaf-Blind)</option>
+                                        <option>Pidgin Signed English (PSE)</option>
+                                        <option>Cued Speech</option>
+                                        <option>Other / Not Sure</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label text-secondary small">Additional Information & Special Requirements</label>
+                                    <textarea class="form-control form-control-glass" rows="4" placeholder="Please mention the schedule, event length, technical terminology, or any preferred interpreter request..."></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-gradient w-100 py-3 fw-bold">Submit Booking Request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 fade-up" style="transition-delay: 0.1s;">
+                    <div class="glass-card p-4 mb-4 neon-border">
+                        <h5 class="mb-4">Contact Info</h5>
+                        <div class="d-flex align-items-center mb-3 text-secondary">
+                            <i class="bi bi-geo-alt text-primary-accent fs-4 me-3"></i>
+                            <div>
+                                <small class="d-block text-muted">Office Address</small>
+                                <span>123 Accessibility Way, New York, NY 10011</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3 text-secondary">
+                            <i class="bi bi-envelope text-primary-accent fs-4 me-3"></i>
+                            <div>
+                                <small class="d-block text-muted">Email Us</small>
+                                <span>book@clearhandsinterpreting.com</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center text-secondary mb-3">
+                            <i class="bi bi-telephone text-primary-accent fs-4 me-3"></i>
+                            <div>
+                                <small class="d-block text-muted">Phone Number</small>
+                                <span>(800) 555-2750</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center text-secondary mb-4">
+                            <i class="bi bi-clock text-primary-accent fs-4 me-3"></i>
+                            <div>
+                                <small class="d-block text-muted">Business Hours</small>
+                                <span>Mon-Fri: 8 AM - 6 PM (Emergency: 24/7)</span>
+                            </div>
+                        </div>
+
+                        <!-- Social Media Icons -->
+                        <div class="border-top border-secondary pt-4 mt-2">
+                            <h6 class="text-secondary small mb-3">Follow Us</h6>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="social-icon fs-5"><i class="bi bi-twitter-x"></i></a>
+                                <a href="#" class="social-icon fs-5"><i class="bi bi-facebook"></i></a>
+                                <a href="#" class="social-icon fs-5"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" class="social-icon fs-5"><i class="bi bi-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card p-4 text-center">
+                        <i class="bi bi-shield-check fs-1 text-success mb-2"></i>
+                        <h5>Confidentiality Assured</h5>
+                        <p class="text-secondary small mb-3">All booking requests and session details are handled under strict HIPAA compliance and standard NDA protections. Your privacy is our highest priority.</p>
+                        <a href="#" class="small text-primary-accent text-decoration-none">Read HIPAA Policy <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-5 bg-secondary-dark border-top border-secondary">
+        <div class="container py-4 fade-up">
+            <div class="text-center mb-5">
+                <span class="text-primary-accent fw-bold text-uppercase small">Our Coverage Area</span>
+                <h2 class="display-6 mt-2">Where We Operate</h2>
+            </div>
+            <div class="glass-card p-2 border-primary neon-border">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25281005117!2d-74.14448744154446!3d40.69763123334211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1697551000000!5m2!1sen!2s" width="100%" height="400" style="border:0; border-radius: 8px; filter: invert(90%) hue-rotate(180deg) contrast(1.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-secondary-dark border-top border-secondary">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a class="navbar-brand mb-4 d-inline-flex" href="index.html">
+                        <img src="assets/logo.svg" alt="ClearHands Interpreting Logo" style="max-height: 40px; width: auto;">
+                    </a>
+                    <p class="text-secondary mb-4">Making communication accessible through professional sign language interpretation services.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-2"><a href="index.html" class="text-secondary text-decoration-none hover-primary">Home</a></li>
+                        <li class="mb-2"><a href="home2.html" class="text-secondary text-decoration-none hover-primary">Home 2</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none hover-primary">About Us</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-secondary text-decoration-none hover-primary">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="mb-4">Services</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Medical</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Legal</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Corporate</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Educational</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="mb-4">Newsletter</h5>
+                    <p class="text-secondary small mb-3">Stay updated on accessibility services and interpreter availability.</p>
+                    <form class="d-flex gap-2 mb-3">
+                        <input type="email" class="form-control form-control-glass" placeholder="Enter your email">
+                        <button class="btn btn-gradient" type="button">Subscribe</button>
+                    </form>
+                    <small class="text-secondary" style="font-size: 0.75rem;">* We respect your privacy. No spam.</small>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-5 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="text-secondary small mb-0">&copy; 2026 ClearHands Interpreting. All rights reserved.</p>
+                <div class="d-flex gap-3 mt-3 mt-md-0">
+                    <a href="#" class="text-secondary small text-decoration-none hover-primary">Privacy Policy</a>
+                    <a href="#" class="text-secondary small text-decoration-none hover-primary">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        if(document.getElementById('particles-js')) {
+            particlesJS("particles-js", {
+                "particles": {
+                    "number": { "value": 20 },
+                    "color": { "value": "#2DA6A2" },
+                    "shape": { "type": "circle" },
+                    "opacity": { "value": 0.2 },
+                    "size": { "value": 2 },
+                    "line_linked": { "enable": false },
+                    "move": { "enable": true, "speed": 1 }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

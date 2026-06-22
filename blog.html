@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | ClearHands Interpreting</title>
+    
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..600&family=Poppins:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+</head>
+<body data-theme="dark">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-glass">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.svg" alt="ClearHands Interpreting Logo" style="max-height: 40px; width: auto;">
+            </a>
+            <button class="navbar-toggler border-0 shadow-none text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="bi bi-list fs-2"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home2.html">Home 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-2 mt-3 mt-xl-0">
+                    <a href="#" id="rtlToggle" class="btn btn-outline-secondary d-flex align-items-center justify-content-center fw-bold" style="width: 40px; height: 40px; font-size: 0.8rem;" title="Toggle RTL">RTL</a>
+                    <a href="#" id="themeToggle" class="btn btn-outline-secondary d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;" title="Toggle Theme"><i class="bi bi-sun fs-5"></i></a>
+                    <a href="login.html" class="btn btn-gradient fw-semibold ms-2">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5 bg-secondary-dark border-bottom border-secondary">
+        <div class="container py-5 text-center fade-up">
+            <h1 class="display-4 fw-bold">Accessibility & Language Insights</h1>
+            <p class="lead text-secondary mx-auto mt-3" style="max-width: 700px;">Learn about sign language interpretation, Deaf culture, inclusive workplaces, and communication accessibility standards.</p>
+        </div>
+    </section>
+
+    <!-- SECTION 1: Featured Article -->
+    <section class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 fade-up">
+                <span class="text-primary-accent fw-bold text-uppercase tracking-wider small">Featured Release</span>
+                <h2 class="display-6 fw-bold text-white mt-2">Essential Reading</h2>
+            </div>
+            <div class="glass-card p-0 overflow-hidden fade-up border-primary neon-border" style="box-shadow: 0 0 30px rgba(6, 182, 212, 0.15);">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6 p-5">
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <span class="badge bg-danger px-3 py-2">Accessibility Guide</span>
+                            <span class="text-secondary-accent small fw-semibold"><i class="bi bi-clock me-1"></i>8 Min Read</span>
+                        </div>
+                        <h3 class="display-6 fw-bold text-white mb-3">Understanding the ADA: A Communication Guide for Businesses</h3>
+                        <p class="text-secondary mb-4">Is your organization compliant with federal communication standards? We explain when on-site or virtual sign language interpretation is legally required and how it supports your team and clients.</p>
+                        
+                        <div class="d-flex align-items-center gap-3 border-top border-secondary pt-4 mt-2">
+                            <div class="bg-primary-dark border border-secondary rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
+                                <i class="bi bi-person-fill text-primary-accent fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold text-white mb-0">ClearHands Team</h6>
+                                <p class="text-secondary small mb-0">Oct 24, 2026</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <a href="#" class="btn btn-gradient py-3 px-4 fw-bold">Read Full Report <i class="bi bi-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative h-100" style="min-height: 450px;">
+                            <img src="assets/images/blog_featured_ada.png" alt="ADA Compliance Audit Seal" class="position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover;">
+                            <div class="position-absolute start-0 top-0 h-100 w-100" style="background: linear-gradient(to right, #101828, transparent); opacity: 0.85; pointer-events: none;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: Latest Insights -->
+    <section class="py-5 bg-secondary-dark border-top border-secondary">
+        <div class="container py-5">
+            <div class="d-flex justify-content-between align-items-end mb-5 fade-up">
+                <div>
+                    <span class="text-primary-accent fw-bold text-uppercase small">Recent</span>
+                    <h2 class="display-6 mt-2 mb-0">Latest Insights</h2>
+                </div>
+                <a href="#" class="btn btn-outline-glow d-none d-md-inline-flex">View All Posts</a>
+            </div>
+            
+            <div class="row g-4">
+                <!-- VRI in Healthcare -->
+                <div class="col-lg-4 col-md-6 fade-up">
+                    <div class="glass-card h-100 p-0 overflow-hidden hover-effect">
+                        <div class="position-relative">
+                            <img src="assets/images/virtual_interpreter.png" alt="Remote VRI Screen" class="img-fluid w-100" style="height: 220px; object-fit: cover; filter: brightness(0.9);">
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-danger px-3 py-2">Virtual VRI</span>
+                            </div>
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="mb-3">Benefits of Video Remote Interpretation in Healthcare</h5>
+                            <p class="text-secondary small mb-3">Oct 12, 2026 • 5 min read</p>
+                            <p class="text-secondary mb-4 flex-grow-1">Explore how medical centers utilize secure, immediate VRI connections to provide rapid clinical support during emergency visits.</p>
+                            <a href="#" class="text-primary-accent fw-bold text-decoration-none mt-auto">Read Article <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Access -->
+                <div class="col-lg-4 col-md-6 fade-up" style="transition-delay: 0.1s;">
+                    <div class="glass-card h-100 p-0 overflow-hidden hover-effect">
+                        <div class="position-relative">
+                            <img src="assets/images/medical_interpreter.png" alt="Classroom Interpretation" class="img-fluid w-100" style="height: 220px; object-fit: cover; filter: brightness(0.9);">
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-warning text-dark px-3 py-2">Education Access</span>
+                            </div>
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="mb-3">Supporting Deaf Students in Higher Education</h5>
+                            <p class="text-secondary small mb-3">Sep 28, 2026 • 6 min read</p>
+                            <p class="text-secondary mb-4 flex-grow-1">Practical guidelines for classroom coordinators to set up interpreters, assistive listening, and visual aids for deaf students.</p>
+                            <a href="#" class="text-primary-accent fw-bold text-decoration-none mt-auto">Read Article <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inclusive Workplaces -->
+                <div class="col-lg-4 col-md-6 mx-md-auto mx-lg-0 fade-up" style="transition-delay: 0.2s;">
+                    <div class="glass-card h-100 p-0 overflow-hidden hover-effect">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80" alt="Office Collaboration" class="img-fluid w-100" style="height: 220px; object-fit: cover; filter: brightness(0.9);">
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="badge bg-success px-3 py-2">Inclusive Workplace</span>
+                            </div>
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="mb-3">Fostering an Inclusive Workspace for Deaf Employees</h5>
+                            <p class="text-secondary small mb-3">Sep 15, 2026 • 7 min read</p>
+                            <p class="text-secondary mb-4 flex-grow-1">Simple onboarding and meeting adaptations that make a huge difference in corporate environments.</p>
+                            <a href="#" class="text-primary-accent fw-bold text-decoration-none mt-auto">Read Article <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5 d-md-none fade-up">
+                <a href="#" class="btn btn-outline-glow">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- New Section 1: Video VRI Setup Guidelines -->
+    <section class="py-5 bg-secondary-dark border-top border-secondary position-relative overflow-hidden">
+        <div class="position-absolute" style="width: 250px; height: 250px; background: radial-gradient(circle, rgba(6, 182, 212, 0.08) 0%, transparent 70%); bottom: -50px; right: -50px; pointer-events: none;"></div>
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <!-- Left: Video Frame Graphic -->
+                <div class="col-lg-6 fade-up">
+                    <div class="glass-card p-2 border-primary neon-border position-relative">
+                        <img src="assets/images/blog_video_showcase.png" alt="Optimal VRI Video Setup Guide" class="img-fluid rounded w-100 shadow-lg">
+                        <!-- Simulated Play Button overlay -->
+                        <div class="position-absolute top-50 start-50 translate-middle bg-primary-accent text-white rounded-circle d-flex align-items-center justify-content-center cursor-pointer shadow" style="width: 70px; height: 70px; font-size: 2rem; box-shadow: 0 0 25px var(--primary-accent-color); opacity: 0.95;">
+                            <i class="bi bi-play-fill" style="margin-left: 4px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right: Guidelines content -->
+                <div class="col-lg-6 fade-up" style="transition-delay: 0.1s;">
+                    <span class="text-primary-accent fw-bold text-uppercase tracking-wider small">Visual Standards</span>
+                    <h2 class="display-6 fw-bold text-white mt-2 mb-4">Optimizing Your VRI Space</h2>
+                    <p class="text-secondary mb-4">To ensure error-free visual translation, setting up the environment for video remote sessions requires careful planning. Here are three crucial setup tips.</p>
+                    
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="text-primary-accent fs-3 me-3"><i class="bi bi-brightness-high"></i></div>
+                        <div>
+                            <h5 class="fw-bold text-white mb-1">Contrast & Solid Backgrounds</h5>
+                            <p class="text-secondary small mb-0">Use solid, neutral backgrounds (dark blue or charcoal) that contrast clearly with skin tones to make hand shapes and finger-spelling highly readable.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="text-secondary-accent fs-3 me-3"><i class="bi bi-camera-video"></i></div>
+                        <div>
+                            <h5 class="fw-bold text-white mb-1">Wide Angle & Eye Level Placement</h5>
+                            <p class="text-secondary small mb-0">Mount the camera at eye level, ensuring the signing space (from head down to the waist) is fully visible without clipping.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-start">
+                        <div class="text-warning fs-3 me-3"><i class="bi bi-lightning-charge"></i></div>
+                        <div>
+                            <h5 class="fw-bold text-white mb-1">Sufficient Frontal Lighting</h5>
+                            <p class="text-secondary small mb-0">Avoid strong backlighting or overhead shadows. Use ring lights or frontal lighting so facial expressions are completely clear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Section 2: Advocacy & Community Impact -->
+    <section class="py-5 border-top border-secondary position-relative overflow-hidden">
+        <div class="position-absolute" style="width: 250px; height: 250px; background: radial-gradient(circle, rgba(79, 70, 229, 0.08) 0%, transparent 70%); bottom: -50px; left: -50px; pointer-events: none;"></div>
+        <div class="container py-5">
+            <div class="row align-items-center g-5 flex-lg-row-reverse">
+                <!-- Left: Group Image -->
+                <div class="col-lg-6 fade-up">
+                    <div class="glass-card p-2 border-primary neon-border position-relative">
+                        <img src="assets/images/blog_advocacy.png" alt="Deaf Community Accessibility Summit" class="img-fluid rounded w-100 shadow-lg">
+                        <div class="position-absolute glass-card px-3 py-2 border-primary" style="bottom: 15px; right: 15px; z-index: 3;">
+                            <span class="text-secondary-accent fw-bold small"><i class="bi bi-people-fill me-1"></i>Deaf-Led Advocacy</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right: Content -->
+                <div class="col-lg-6 fade-up" style="transition-delay: 0.1s;">
+                    <span class="text-secondary-accent fw-bold text-uppercase tracking-wider small">Community Partnerships</span>
+                    <h2 class="display-6 fw-bold text-white mt-2 mb-4">Advocacy Training Programs</h2>
+                    <p class="text-secondary mb-4">ClearHands sponsors digital events, Deaf culture webinars, and student internships to encourage true allyship across schools and businesses.</p>
+                    
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="p-3 rounded bg-primary-dark border border-secondary h-100">
+                                <h5 class="fw-bold text-white mb-2"><i class="bi bi-broadcast text-primary-accent me-2"></i>Cultural Training</h5>
+                                <p class="text-secondary small mb-0">On-demand workplace webinars covering Deaf culture and standard terminology.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 rounded bg-primary-dark border border-secondary h-100">
+                                <h5 class="fw-bold text-white mb-2"><i class="bi bi-mortarboard-fill text-secondary-accent me-2"></i>ASL Internships</h5>
+                                <p class="text-secondary small mb-0">Providing scholarship pathways for aspiring registry-certified interpreters.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 rounded bg-primary-dark border border-secondary h-100">
+                                <h5 class="fw-bold text-white mb-2"><i class="bi bi-journal-check text-warning me-2"></i>Best Practices</h5>
+                                <p class="text-secondary small mb-0">Free templates for corporate coordinators to design fully accessible workspaces.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 rounded bg-primary-dark border border-secondary h-100">
+                                <h5 class="fw-bold text-white mb-2"><i class="bi bi-shield-check text-success me-2"></i>Compliance Check</h5>
+                                <p class="text-secondary small mb-0">Quick assessment forms to audit ADA and Section 508 readiness.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Section 3: Compliance Standards Finder -->
+    <section class="py-5 bg-secondary-dark border-top border-secondary position-relative overflow-hidden">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <!-- Left: Compliance Finder lists -->
+                <div class="col-lg-5 fade-up">
+                    <span class="text-primary-accent fw-bold text-uppercase tracking-wider small">Legal Standards</span>
+                    <h2 class="display-6 fw-bold text-white mt-2 mb-4">Federal Interpretation Mandates</h2>
+                    <p class="text-secondary mb-4">Access key guidelines detailing when corporate entities, health systems, and classrooms are legally required to assign qualified interpreters.</p>
+                    
+                    <div class="glass-card p-3 border-secondary mb-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="fw-bold text-white"><i class="bi bi-file-earmark-lock-fill text-danger me-2"></i>ADA Title III Mandates</span>
+                            <span class="badge badge-soft-info">Required</span>
+                        </div>
+                        <p class="text-secondary small mb-0">Mandating hospitals, hotels, and retail organizations to ensure equal communications for deaf visitors.</p>
+                    </div>
+                    
+                    <div class="glass-card p-3 border-secondary">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="fw-bold text-white"><i class="bi bi-hospital text-success me-2"></i>Section 1557 ACA Rules</span>
+                            <span class="badge badge-soft-info">Healthcare</span>
+                        </div>
+                        <p class="text-secondary small mb-0">Prohibiting health programs from utilizing family members or unqualified staff for translations.</p>
+                    </div>
+                </div>
+                <!-- Right: Neon Compliance image -->
+                <div class="col-lg-7 fade-up" style="transition-delay: 0.1s;">
+                    <div class="glass-card p-2 border-primary neon-border position-relative">
+                        <img src="assets/images/blog_compliance.png" alt="ADA Compliance Audit Seal" class="img-fluid rounded w-100 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Newsletter -->
+    <section class="py-5 position-relative overflow-hidden border-top border-secondary">
+        <div class="position-absolute w-100 h-100 top-0 start-0 bg-primary-dark opacity-50 z-index-1"></div>
+        
+        <div class="container py-5 text-center position-relative z-index-2 fade-up">
+            <div class="glass-card p-5 border-secondary-accent mx-auto backdrop-blur-md" style="max-width: 700px; box-shadow: 0 0 40px rgba(45, 166, 162, 0.1);">
+                <i class="bi bi-envelope-paper display-4 text-primary-accent mb-3 d-block"></i>
+                <h2 class="fw-bold mb-3">Stay Updated on Accessibility Guides</h2>
+                <p class="text-secondary mb-4 mx-auto">Join coordinators and administrators receiving our monthly updates, training resources, and accessibility news.</p>
+                
+                <form class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
+                    <input type="email" class="form-control form-control-glass py-3 px-4" placeholder="Enter your email address" style="max-width: 350px;">
+                    <button class="btn btn-gradient py-3 px-4 fw-bold" type="button">Subscribe Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-secondary-dark border-top border-secondary">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a class="navbar-brand mb-4 d-inline-flex" href="index.html">
+                        <img src="assets/logo.svg" alt="ClearHands Interpreting Logo" style="max-height: 40px; width: auto;">
+                    </a>
+                    <p class="text-secondary mb-4">Making communication accessible through professional sign language interpretation services.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-2"><a href="index.html" class="text-secondary text-decoration-none hover-primary">Home</a></li>
+                        <li class="mb-2"><a href="home2.html" class="text-secondary text-decoration-none hover-primary">Home 2</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none hover-primary">About Us</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-secondary text-decoration-none hover-primary">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="mb-4">Services</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Medical</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Legal</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Corporate</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Educational</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="mb-4">Newsletter</h5>
+                    <p class="text-secondary small mb-3">Stay updated on accessibility services and interpreter availability.</p>
+                    <form class="d-flex gap-2 mb-3">
+                        <input type="email" class="form-control form-control-glass" placeholder="Enter your email">
+                        <button class="btn btn-gradient" type="button">Subscribe</button>
+                    </form>
+                    <small class="text-secondary" style="font-size: 0.75rem;">* We respect your privacy. No spam.</small>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-5 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="text-secondary small mb-0">&copy; 2026 ClearHands Interpreting. All rights reserved.</p>
+                <div class="d-flex gap-3 mt-3 mt-md-0">
+                    <a href="#" class="text-secondary small text-decoration-none hover-primary">Privacy Policy</a>
+                    <a href="#" class="text-secondary small text-decoration-none hover-primary">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" width="180" height="50" role="img" aria-label="ClearHands Interpreting Logo">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <!-- Background icon shape -->
+  <rect x="2" y="2" width="46" height="46" rx="12" fill="url(#logoGrad)" />
+  
+  <!-- Communication waves (accessibility design) -->
+  <path d="M 35 15 A 8 8 0 0 1 35 35" stroke="#F59E0B" stroke-width="2" fill="none" stroke-linecap="round" />
+  <path d="M 39 11 A 13 13 0 0 1 39 39" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8" />
+  
+  <!-- Hand Gesture Icon -->
+  <path d="M16 28 L21 21 C22 20 23.5 20.5 24 21.5 C24.5 22.5 24 24 23 24.5 L20 26 L23 26 C24.5 26 25.5 27 25.5 28.5 C25.5 30 24.5 31 23 31 L18 31" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M21 21 L21 16 C21 15 22 14 23 14 C24 14 25 15 25 16 L25 21" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M25 21 L25 18 C25 17 26 16 27 16 C28 16 29 17 29 18 L29 22" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- Company Name Text -->
+  <text x="56" y="26" font-family="'Poppins', sans-serif" font-weight="700" font-size="16" fill="#ffffff" letter-spacing="-0.5">Clear<tspan fill="#06B6D4">Hands</tspan></text>
+  <text x="56" y="38" font-family="'Poppins', sans-serif" font-weight="500" font-size="8" fill="#94a3b8" letter-spacing="2">INTERPRETING</text>
+</svg>

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClearHands Interpreting | Accessibility Solutions</title>
+    
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..600&family=Poppins:wght@300..700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+</head>
+<body data-theme="dark" class="bg-primary-dark">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-glass">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.svg" alt="ClearHands Interpreting Logo" style="max-height: 40px; width: auto;">
+            </a>
+            
+            <button class="navbar-toggler border-0 shadow-none text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="bi bi-list fs-2"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="home2.html">Home 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-2 mt-3 mt-xl-0">
+                    <a href="#" id="rtlToggle" class="btn btn-outline-secondary d-flex align-items-center justify-content-center fw-bold" style="width: 40px; height: 40px; font-size: 0.8rem;" title="Toggle RTL">RTL</a>
+                    <a href="#" id="themeToggle" class="btn btn-outline-secondary d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;" title="Toggle Theme"><i class="bi bi-sun fs-5"></i></a>
+                    <a href="login.html" class="btn btn-gradient fw-semibold ms-2">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: Split Hero with Background Image -->
+    <section class="py-5 position-relative overflow-hidden d-flex align-items-center" style="min-height: 95vh; background: linear-gradient(to right, rgba(16, 24, 40, 0.95) 45%, rgba(16, 24, 40, 0.7) 100%), url('assets/images/hero_bg.png') no-repeat center center; background-size: cover;">
+        <div id="particles-js" class="position-absolute w-100 h-100 top-0 start-0 z-index-1 opacity-25"></div>
+        
+        <div class="container position-relative z-index-2 py-5">
+            <div class="row align-items-center g-5">
+                <!-- Left: Text Content -->
+                <div class="col-lg-6 text-start fade-up">
+                    <div class="badge badge-soft-info px-4 py-2 rounded-pill mb-4 fs-6">
+                        <i class="bi bi-shield-check me-2"></i>Sign Language Interpretation Agency
+                    </div>
+                    <h1 class="display-4 fw-bold mb-4" style="line-height: 1.2;">
+                        Connecting Every Conversation <span class="text-gradient d-block mt-2">Without Barriers</span>
+                    </h1>
+                    <p class="lead text-secondary mb-5">
+                        Providing certified on-site and remote sign language interpreters for medical, legal, educational, corporate, and public settings.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="contact.html" class="btn btn-gradient btn-lg px-4">Book an Interpreter</a>
+                        <a href="services.html" class="btn btn-outline-glow btn-lg px-4"><i class="bi-info-circle me-2"></i>How It Works</a>
+                    </div>
+                </div>
+                
+                <!-- Right: Image -->
+                <div class="col-lg-6 fade-up" style="transition-delay: 0.2s;">
+                    <div class="glass-card neon-border p-2 position-relative" style="z-index: 2;">
+                        <img src="assets/images/virtual_interpreter.png" alt="ClearHands Virtual Sign Language Interpretation" class="img-fluid rounded w-100 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: Trust & Stats -->
+    <!-- SECTION 2: Impact & Stats (Unique Layout with Image) -->
+    <section class="py-5 bg-secondary-dark border-top border-bottom border-secondary">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <!-- Left Column: Image -->
+                <div class="col-lg-6 fade-up">
+                    <div class="glass-card neon-border p-2 position-relative">
+                        <img src="assets/images/medical_interpreter.png" alt="Impactful Sign Language Interpretation" class="img-fluid rounded w-100 shadow-lg">
+                        <div class="position-absolute glass-card px-3 py-2 border-primary" style="bottom: 15px; right: 15px; z-index: 3;">
+                            <span class="text-primary-accent fw-bold small"><i class="bi bi-patch-check-fill me-1"></i>ADA & HIPAA Compliant</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Column: Unique Content & Stats -->
+                <div class="col-lg-6 fade-up" style="transition-delay: 0.2s;">
+                    <span class="text-primary-accent fw-bold text-uppercase tracking-wider small">Our Real-World Impact</span>
+                    <h2 class="display-6 fw-bold mt-2 mb-4 text-white">Breaking Barriers, Empowering Connections</h2>
+                    <p class="text-secondary mb-5">
+                        We deliver qualified, highly trained American Sign Language (ASL) and spoken language interpreters to ensure every individual has equal access to critical communication in healthcare, law, and education.
+                    </p>
+                    
+                    <div class="row g-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="fs-2 text-primary-accent"><i class="bi bi-clock-history"></i></div>
+                                <div>
+                                    <h4 class="fw-bold text-white mb-1"><span class="counter-value" data-target="10">0</span>k+</h4>
+                                    <p class="text-secondary small mb-0">Hours Interpreted</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="fs-2 text-secondary-accent"><i class="bi bi-bullseye"></i></div>
+                                <div>
+                                    <h4 class="fw-bold text-white mb-1"><span class="counter-value" data-target="99">0</span>%</h4>
+                                    <p class="text-secondary small mb-0">Accuracy Rating</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="fs-2 text-warning"><i class="bi bi-people-fill"></i></div>
+                                <div>
+                                    <h4 class="fw-bold text-white mb-1"><span class="counter-value" data-target="250">0</span>+</h4>
+                                    <p class="text-secondary small mb-0">Certified Experts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="fs-2 text-success"><i class="bi bi-telephone-fill"></i></div>
+                                <div>
+                                    <h4 class="fw-bold text-white mb-1"><span class="counter-value" data-target="24">0</span>/7</h4>
+                                    <p class="text-secondary small mb-0">Emergency Support</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Features Grid -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5 fade-up">
+                <span class="text-primary-accent fw-bold text-uppercase small">Why Choose ClearHands</span>
+                <h2 class="display-6 mt-2">Dedicated to Seamless Communication</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4 fade-up">
+                    <div class="glass-card h-100 p-4 text-center hover-effect">
+                        <div class="rounded-circle bg-secondary-dark d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px; border: 1px solid var(--border-color);">
+                            <i class="bi bi-award fs-1 text-primary-accent"></i>
+                        </div>
+                        <h4 class="mb-3">Certified Interpreters</h4>
+                        <p class="text-secondary mb-0">All interpreters are RID, NIC, or state-certified with specialized training in legal and medical settings.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-up" style="transition-delay: 0.1s;">
+                    <div class="glass-card h-100 p-4 text-center neon-border hover-effect">
+                        <div class="rounded-circle bg-secondary-dark d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px; border: 1px solid var(--primary-accent);">
+                            <i class="bi bi-lightning fs-1 text-primary-accent"></i>
+                        </div>
+                        <h4 class="mb-3">Immediate VRI Access</h4>
+                        <p class="text-secondary mb-0">Connect instantly online via our secure, high-speed Video Remote Interpretation portal, available 24/7.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-up" style="transition-delay: 0.2s;">
+                    <div class="glass-card h-100 p-4 text-center hover-effect">
+                        <div class="rounded-circle bg-secondary-dark d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px; border: 1px solid var(--border-color);">
+                            <i class="bi bi-shield-check fs-1 text-primary-accent"></i>
+                        </div>
+                        <h4 class="mb-3">Strict Confidentiality</h4>
+                        <p class="text-secondary mb-0">We strictly adhere to HIPAA regulations and the RID Code of Professional Conduct for total privacy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: Alternating Core Services -->
+    <section class="py-5 bg-secondary-dark">
+        <div class="container py-5">
+            <!-- Row 1 -->
+            <div class="row align-items-center g-5 mb-5 pb-4 fade-up">
+                <div class="col-lg-6">
+                    <div class="glass-card p-1 border-primary">
+                        <img src="assets/images/medical_interpreter.png" alt="Medical Interpretation" class="img-fluid rounded" style="opacity: 0.9;">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <span class="badge badge-soft-info mb-3">Core Service</span>
+                    <h2 class="mb-4">Professional On-Site Interpretation</h2>
+                    <p class="text-secondary mb-4">We dispatch qualified sign language interpreters directly to your location. This is ideal for personal interactions, clinical visits, court cases, and large events where physical presence is key to effective engagement.</p>
+                    <ul class="list-unstyled text-secondary mb-4">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Certified medical and legal specialists</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Full compliance with ADA regulations</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Coordination for single sessions or multi-day conferences</li>
+                    </ul>
+                    <a href="services.html" class="text-primary-accent text-decoration-none fw-bold">Explore On-Site Services <i class="bi bi-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="row align-items-center g-5 pt-4 fade-up flex-lg-row-reverse">
+                <div class="col-lg-6">
+                    <div class="glass-card p-1 border-warning">
+                        <img src="assets/images/virtual_interpreter.png" alt="Video Remote Interpretation" class="img-fluid rounded" style="opacity: 0.9;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-5">
+                    <span class="badge badge-soft-warning mb-3">Optimization</span>
+                    <h2 class="mb-4">Video Remote Interpretation (VRI)</h2>
+                    <p class="text-secondary mb-4">Reduce costs and travel coordination with virtual VRI. Connect instantly or schedule sessions on our secure platform, compatible with Zoom, Teams, and dedicated healthcare portals.</p>
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <div class="bg-primary-dark p-3 rounded border border-secondary">
+                                <h4 class="text-warning mb-1">&lt; 1 Min</h4>
+                                <small class="text-secondary">Average Connection Time</small>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="bg-primary-dark p-3 rounded border border-secondary">
+                                <h4 class="text-success mb-1">100%</h4>
+                                <small class="text-secondary">HIPAA & ADA Compliant</small>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="services.html" class="text-primary-accent text-decoration-none fw-bold">View VRI Solutions <i class="bi bi-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: Testimonials -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5 fade-up">
+                <h2 class="display-6">Trusted by Organizations and the Deaf Community</h2>
+                <p class="text-secondary">See what healthcare administrators, legal professionals, and coordinators say about ClearHands.</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4 fade-up">
+                    <div class="glass-card h-100 p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-center text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary mb-4 flex-grow-1">"ClearHands has been an invaluable partner for our emergency department. Their video remote interpretation connects in under a minute, which is critical for patient care."</p>
+                        <div class="d-flex align-items-center justify-content-center gap-3">
+                            <img src="https://ui-avatars.com/api/?name=Elena+R&background=0F4C81&color=fff" alt="User" class="rounded-circle" width="48">
+                            <div class="text-center">
+                                <h6 class="mb-0">Dr. Elena R.</h6>
+                                <small class="text-secondary">Director of Emergency Medicine, Metro Health</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 fade-up" style="transition-delay: 0.1s;">
+                    <div class="glass-card h-100 p-4 border-primary neon-border d-flex flex-column">
+                        <div class="d-flex justify-content-center text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary mb-4 flex-grow-1">"We hire ClearHands for all our courtroom and deposition needs. Their interpreters are not only certified but also intimately familiar with legal terminology and protocols."</p>
+                        <div class="d-flex align-items-center justify-content-center gap-3">
+                            <img src="https://ui-avatars.com/api/?name=Marcus+T&background=2DA6A2&color=fff" alt="User" class="rounded-circle" width="48">
+                            <div class="text-center">
+                                <h6 class="mb-0">Marcus T.</h6>
+                                <small class="text-secondary">Senior Partner, Beacon Legal Group</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 fade-up" style="transition-delay: 0.2s;">
+                    <div class="glass-card h-100 p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-center text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary mb-4 flex-grow-1">"Providing accommodations for our university students was always a logistical challenge. ClearHands made scheduled classroom interpretation simple and reliable."</p>
+                        <div class="d-flex align-items-center justify-content-center gap-3">
+                            <img src="https://ui-avatars.com/api/?name=Sarah+K&background=F4B942&color=fff" alt="User" class="rounded-circle" width="48">
+                            <div class="text-center">
+                                <h6 class="mb-0">Sarah K.</h6>
+                                <small class="text-secondary">Director of Student Accessibility, State College</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: Final CTA (Unique & Premium Split Layout) -->
+    <section class="py-5 position-relative overflow-hidden border-top border-secondary bg-secondary-dark">
+        <!-- Floating Glow Effects -->
+        <div class="position-absolute" style="width: 300px; height: 300px; background: radial-gradient(circle, rgba(79, 70, 229, 0.15) 0%, transparent 70%); bottom: -100px; right: -50px; pointer-events: none;"></div>
+        <div class="position-absolute" style="width: 300px; height: 300px; background: radial-gradient(circle, rgba(6, 182, 212, 0.15) 0%, transparent 70%); top: -100px; left: -50px; pointer-events: none;"></div>
+        
+        <div class="container py-5 position-relative z-index-2 fade-up">
+            <div class="glass-card p-5 border-secondary-accent overflow-hidden position-relative" style="box-shadow: 0 25px 60px rgba(79, 70, 229, 0.08);">
+                <div class="row align-items-center g-5">
+                    <!-- Left Column: Content & Bullet Checks -->
+                    <div class="col-lg-7 text-start">
+                        <span class="badge badge-soft-info px-3 py-2 rounded-pill mb-3 text-uppercase tracking-wider small">Get Started Today</span>
+                        <h2 class="display-5 fw-bold text-white mb-3">Ready to Bridge the Communication Gap?</h2>
+                        <p class="text-secondary mb-4">Partner with ClearHands to ensure seamless, fully compliant sign language interpretation for your organization, event, or emergency request.</p>
+                        
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center gap-2 text-secondary">
+                                    <i class="bi bi-shield-fill-check text-success fs-5"></i>
+                                    <span>HIPAA & ADA Compliant</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center gap-2 text-secondary">
+                                    <i class="bi bi-clock-fill text-warning fs-5"></i>
+                                    <span>24/7 Virtual Remote VRI</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center gap-2 text-secondary">
+                                    <i class="bi bi-award-fill text-primary-accent fs-5"></i>
+                                    <span>RID Certified Interpreters</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center gap-2 text-secondary">
+                                    <i class="bi bi-lightning-fill text-secondary-accent fs-5"></i>
+                                    <span>Instant 30s VRI Connection</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column: Interactive CTA Actions -->
+                    <div class="col-lg-5 text-center text-lg-end">
+                        <div class="p-4 rounded bg-primary-dark border border-secondary text-start shadow-sm" style="backdrop-filter: blur(10px);">
+                            <h5 class="fw-bold text-white mb-3"><i class="bi bi-envelope-paper-fill text-secondary-accent me-2"></i>Quick Booking Call</h5>
+                            <p class="text-secondary small mb-4">Request a call back or schedule an interpreter in under a minute.</p>
+                            <div class="d-grid gap-3">
+                                <a href="contact.html" class="btn btn-gradient btn-lg fw-bold text-center">Book an Interpreter</a>
+                                <a href="contact.html" class="btn btn-outline-glow btn-lg fw-bold text-center"><i class="bi bi-telephone-outbound me-2"></i>Contact Support</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a class="navbar-brand mb-4 d-inline-flex" href="index.html">
+                        <img src="assets/logo.svg" alt="ClearHands Interpreting Logo" style="max-height: 40px; width: auto;">
+                    </a>
+                    <p class="text-secondary mb-4">Making communication accessible through professional sign language interpretation services.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-2"><a href="index.html" class="text-secondary text-decoration-none hover-primary">Home</a></li>
+                        <li class="mb-2"><a href="home2.html" class="text-secondary text-decoration-none hover-primary">Home 2</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none hover-primary">About Us</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-secondary text-decoration-none hover-primary">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="mb-4">Services</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Medical</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Legal</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Corporate</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-secondary text-decoration-none hover-primary">Educational</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="mb-4">Newsletter</h5>
+                    <p class="text-secondary small mb-3">Stay updated on accessibility services and interpreter availability.</p>
+                    <form class="d-flex gap-2 mb-3">
+                        <input type="email" class="form-control form-control-glass" placeholder="Enter your email">
+                        <button class="btn btn-gradient" type="button">Subscribe</button>
+                    </form>
+                    <small class="text-secondary" style="font-size: 0.75rem;">* We respect your privacy. No spam.</small>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-5 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="text-secondary small mb-0">&copy; 2026 ClearHands Interpreting. All rights reserved.</p>
+                <div class="d-flex gap-3 mt-3 mt-md-0">
+                    <a href="#" class="text-secondary small text-decoration-none hover-primary">Privacy Policy</a>
+                    <a href="#" class="text-secondary small text-decoration-none hover-primary">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Init Particles JS for Hero
+        if(document.getElementById('particles-js')) {
+            particlesJS("particles-js", {
+                "particles": {
+                    "number": { "value": 30, "density": { "enable": true, "value_area": 800 } },
+                    "color": { "value": "#2DA6A2" },
+                    "shape": { "type": "circle" },
+                    "opacity": { "value": 0.3, "random": false },
+                    "size": { "value": 3, "random": true },
+                    "line_linked": { "enable": true, "distance": 150, "color": "#2DA6A2", "opacity": 0.2, "width": 1 },
+                    "move": { "enable": true, "speed": 1.5, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": { "onhover": { "enable": true, "mode": "grab" }, "onclick": { "enable": true, "mode": "push" }, "resize": true },
+                    "modes": { "grab": { "distance": 140, "line_linked": { "opacity": 0.5 } }, "push": { "particles_nb": 4 } }
+                },
+                "retina_detect": true
+            });
+        }
+    </script>
+</body>
+</html>
