@@ -60,14 +60,24 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- Mobile Menu Scroll Lock ---
+    // --- Mobile Menu Scroll Lock & Icon Toggle ---
     const navbarNav = document.getElementById('navbarNav');
     if (navbarNav) {
         navbarNav.addEventListener('show.bs.collapse', () => {
             document.body.style.overflow = 'hidden';
+            const togglerIcon = document.querySelector('[data-bs-target="#navbarNav"] i, .navbar-toggler i');
+            if (togglerIcon) {
+                togglerIcon.classList.remove('bi-list');
+                togglerIcon.classList.add('bi-x-lg');
+            }
         });
         navbarNav.addEventListener('hidden.bs.collapse', () => {
             document.body.style.overflow = '';
+            const togglerIcon = document.querySelector('[data-bs-target="#navbarNav"] i, .navbar-toggler i');
+            if (togglerIcon) {
+                togglerIcon.classList.remove('bi-x-lg');
+                togglerIcon.classList.add('bi-list');
+            }
         });
     }
 
