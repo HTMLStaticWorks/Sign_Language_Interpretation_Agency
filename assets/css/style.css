@@ -89,7 +89,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-weight: 580; }
-h2 { font-weight: 540; }
+h2 {
+    font-size: 2rem !important;
+    font-weight: 540;
+}
 h3 { font-weight: 520; }
 h4, h5, h6 { font-weight: 520; }
 
@@ -527,6 +530,34 @@ select.form-select.form-control-glass {
         position: absolute;
         top: 20px;
         right: 24px;
+    }
+}
+
+/* Keep the navbar fixed on tablet widths around 1024px */
+@media (min-width: 992px) and (max-width: 1024px) {
+    body {
+        padding-top: 84px;
+    }
+
+    body.home-page {
+        zoom: 0.95;
+    }
+
+    .navbar-glass {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .home2-hero-actions {
+        flex-direction: column !important;
+        align-items: stretch;
+    }
+
+    .home2-hero-actions .btn {
+        width: 100% !important;
     }
 }
 

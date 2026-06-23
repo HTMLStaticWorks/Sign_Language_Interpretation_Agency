@@ -75,3 +75,10 @@ body[dir="rtl"] {
 [dir="rtl"] .float-start {
     float: right !important;
 }
+
+[dir="rtl"] .featured-read-time {
+    direction: ltr;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+}
