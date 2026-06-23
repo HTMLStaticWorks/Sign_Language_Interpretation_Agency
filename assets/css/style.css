@@ -535,22 +535,6 @@ select.form-select.form-control-glass {
 
 /* Keep the navbar fixed on tablet widths around 1024px */
 @media (min-width: 992px) and (max-width: 1024px) {
-    body {
-        padding-top: 84px;
-    }
-
-    body.home-page {
-        zoom: 0.95;
-    }
-
-    .navbar-glass {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-    }
-
     .home2-hero-actions {
         flex-direction: column !important;
         align-items: stretch;
@@ -608,6 +592,20 @@ select.form-select.form-control-glass {
         justify-content: center;
     }
     h1, .hero-title { font-size: 2.2rem !important; }
+}
+
+@media (max-width: 991.98px) {
+    .featured-release-media {
+        min-height: 0 !important;
+        height: auto !important;
+    }
+
+    .featured-release-image {
+        position: static !important;
+        inset: auto !important;
+        height: auto !important;
+        display: block;
+    }
 }
 
 /* Glow effects */
